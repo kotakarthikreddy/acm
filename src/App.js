@@ -128,7 +128,7 @@ const App = () => {
                     </div>,
                     <UpcomingEvents upcomingEvent = {upcomingEvent1} />,
                     <UpcomingEvents upcomingEvent = {upcomingEvent2} />,
-                    // <UpcomingEvents upcomingEvent = {upcomingEvent3} />,
+                    <UpcomingEvents upcomingEvent = {upcomingEvent3} />,
                     <Faq faq={faqData}/>, <ContactForm />, <Footer />]} />
                 </Routes>
             </Router>
