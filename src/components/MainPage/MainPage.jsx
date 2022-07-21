@@ -18,14 +18,16 @@ const MainPage = () => {
             <h1 className={styles.title}>NEVER STOP TO </h1>
             <h1 className={`${styles.title} ${styles.text_typing}`}>EXPLORE THE WORLD </h1>
         </div><br />
-        <Typography className={styles.content} variant="body1">The ACM (Association for Computing Machinery), founded in 1947 is the largest and oldest international scientific and industrial computer society. Through its many Special Interest Groups, the ACM fosters research and communication in a broad range of computing areas.</Typography><br />
+        <Typography className={styles.content} variant="body1">The most awaited time of the year has arrived, ACM is back with
+its RECRUITMENTS for the CORE TEAM of the academic year 2022-23 and is in
+search of young minds and fresh talents. </Typography><br />
         {/* <button className={styles.join}>Explore <ArrowForwardIosIcon style={{fontSize: '17px'}} /></button> */}
         <div className={styles.btnContainer}>
             <button className={styles.button}>
                 <span className={styles.circle}>
                     <span className={`${styles.icon} ${styles.arrow}`}></span>
                 </span>
-                <span className={styles.text}><a href="#about">EXPLORE MORE</a></span>
+                <span className={styles.text}><a href="https://docs.google.com/forms/d/e/1FAIpQLSdNKc7u6N7CLuNBKTY8MDuGCXRPaD_uKP044zN3o7mhS5uzyQ/viewform" target="_blank">Join Us</a></span>
             </button>
         </div>
     </div>
